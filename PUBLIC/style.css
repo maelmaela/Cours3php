@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Inconsolata:wght@200..900&family=Pacifico&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.bodyconnect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #444B5F;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+.bouton {
+    color: black;
+}
+
+.btn1 {
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+}
+
+.btn1:hover {
+    border: none;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color: #444B5F;
+}
+
+.btn2 {
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+}
+
+.btn2:hover {
+    border: none;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color: #444B5F;
+}
+
+.container {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+}
+
+.aside {
+    width: 18%;
+    background-color: #444B5F;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 5px;
+    height: 25%;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+}
+
+.menu {
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    height: 60%;
+}
+
+.menu button {
+    padding: 10px 5px 10px 5px;
+    width: 100%;
+    border: none;
+    background-color: #444B5F;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menu button:hover {
+    padding: 10px 5px;
+    width: 100%;
+    border: none;
+    background-color: #5B627A;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+.content {
+    background-color: #F3F3F3;
+    width: 82%;
+    height: 100%;
+}
+
+.navb-bar {
+    background-color: white;
+    height: 10%;
+    width: 100%;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+
+.navb-bar input {
+    font-family: "Work Sans", sans-serif;
+}
+
+.search-bar {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 6px;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 500px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #444B5F;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+    font-family: "Work Sans", sans-serif;
+}
+
+.search-btn {
+    margin-top: 6px;
+    padding: 15px 20px;
+    border: none;
+    background-color: #444B5F;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.search-btn:hover {
+    background-color: #5B627A;
+}
+
+.contenu {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.colonne1 {
+    background-color: white;
+    width: 50%;
+    margin: 10px;
+    height: 95%;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-family: "Work Sans", sans-serif;
+    position: relative;
+}
+
+h2 {
+    padding-top: 10px;
+    color: #3A2F9E;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+}
+
+.label {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    width: 100%;
+}
+
+.label label {
+    width: 30%;
+}
+
+.label input {
+    width: 70%;
+    height: 5vh;
+}
+
+.lab1 {
+    display: flex;
+}
+
+.lab2 {
+    display: flex;
+}
+
+.lab3 {
+    display: flex;
+}
+
+.lab4 {
+    display: flex;
+}
+
+.lab5 {
+    display: flex;
+}
+
+.lab5 input {
+    width: 70%;
+    height: 20vh;
+}
+
+.colonne2 .label .lab3 input {
+    width: 55%;
+    height: 5vh;
+}
+
+.lab3 button {
+    background-color: #3A2F9E;
+    color: white;
+    border: none;
+    padding: 7px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.lab3 button a {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: none;
+    padding: 8px;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+}
+
+th {
+    background-color: #444B5F;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f0eded;
+}
+
+tr:hover {
+    background-color: white;
+}
+
+.colonne1 .ligne2 button {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color: #3A2F9E;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.colonne1 .ligne2 button a {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+}
+
+.colonne2 {
+    background-color: white;
+    width: 50%;
+    margin: 10px;
+    height: 95%;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-family: "Work Sans", sans-serif;
+    position: relative;
+}
+
+.colonne2 .ligne2 button {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color: #3A2F9E;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.colonne2 .ligne2 button a {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+}
+
+.colonne {
+    width: 90%;
+    background-color: white;
+    height: 90%;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.colonne table {
+    margin-top: 40px;
+}
+
+.colonne table button {
+    background-color: #3A2F9E;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.colonne table button a {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+}
+
+.menuderoulant {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+    cursor: pointer;
+}
+
+select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.lab1p {
+    display: grid;
+    gap: 15px;
+}
+
+.lab2p {
+    display: grid;
+    gap: 15px;
+}
+
+.lab3p {
+    display: grid;
+    gap: 15px;
+}
+
+.lab4p {
+    display: grid;
+    gap: 15px;
+}
+
+.colonne1 .label .lab1p input {
+    width: 98%;
+    height: 5vh;
+}
+
+.colonne1 .label .lab2p input {
+    width: 98%;
+    height: 5vh;
+}
+
+.colonne1 .label .lab3p input {
+    width: 98%;
+    height: 5vh;
+}
+
+.colonne1 .label .lab4p input {
+    width: 98%;
+    height: 5vh;
+}
+
+.buttonp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 290px;
+}
+
+.buttonp button {
+    background-color: #3A2F9E;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.buttonp button a {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+}
+
+
+.login-container {
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #5B627A;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-family: "Work Sans", sans-serif;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    font-family: "Work Sans", sans-serif;
+}
+
+.login-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444B5F;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.login-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #444B5F;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Work Sans", sans-serif;
+}
+
+.login-container button:hover {
+    background-color: #6b728a;
+    font-family: "Work Sans", sans-serif;
+}
+
+.btnconnexion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.annulation h1 {
+    color: black;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.annulation {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.annulationbtn {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.annulationbtn button {
+    background-color: #3A2F9E;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.annulationbtn button a {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+}
+
+.colonne1p {
+    background-color: white;
+    width: 50%;
+    margin: 10px;
+    height: 45%;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-family: "Work Sans", sans-serif;
+    position: relative;
+}
+
+.colonne2p {
+    background-color: white;
+    width: 50%;
+    margin: 10px;
+    height: 45%;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-family: "Work Sans", sans-serif;
+    position: relative;
+}
+
+.colonne2p .ligne2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.colonne2p .ligne2 button {
+    bottom: 20px;
+    right: 10px;
+    background-color: #3A2F9E;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.colonne2p .ligne2 button a {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+}
+
+.navb-barp {
+    background-color: white;
+    height: 30%;
+    width: 80%;
+    margin-left: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.contenup {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    width: 100%;
+}
+
+.rightp {
+    width: 50%;
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.leftp {
+    width: 50%;
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.leftp label {
+    width: 30%;
+    font-family: "Work Sans", sans-serif;
+}
+
+.leftp input {
+    width: 70%;
+    height: 5vh;
+    font-family: "Work Sans", sans-serif;
+}
+
+.rightp label {
+    width: 30%;
+    font-family: "Work Sans", sans-serif;
+}
+
+.rightp input {
+    width: 70%;
+    height: 5vh;
+    font-family: "Work Sans", sans-serif;
+}
+
+.bloc {
+    width: 95%;
+    height: 95%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    background-color: #444B5F;
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #444B5F, #6b728a);
+}
+
+.gauche {
+    width: 45%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.046);
+    border: 1px solid rgb(244, 239, 239);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.droite {
+    width: 45%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.046);
+    border: 1px solid rgb(244, 239, 239);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.lab1d {
+    display: flex;
+}
+
+.lab1d label {
+    font-size: 20px;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+}
+
+.lab1d p {
+    font-size: 20px;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+}
+
+.lab2d {
+    display: flex;
+}
+
+.lab2d label {
+    font-size: 20px;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+}
+
+.lab2d p {
+    font-size: 20px;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+}
+
+.lab3d {
+    display: flex;
+}
+
+.lab3d label {
+    font-size: 20px;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+}
+
+.lab3d p {
+    font-size: 20px;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+}
+
+.lab1d input {
+    color: none;
+}
